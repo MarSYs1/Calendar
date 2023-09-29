@@ -8,20 +8,29 @@
 import SwiftUI
 
 struct ButtonNavigationMonths: View {
+    
+    var imageButton: String
+    
     var body: some View {
         Button(action: {
             
         }, label: {
-            Image(systemName:"arrowshape.backward.circle")
-                .font(.title)
-                .foregroundStyle(.black)
+            HStack{
+                Image(systemName: imageButton)
+                    .font(.title)
+                    .foregroundStyle(.white)
+            }
+            .frame(width: 38, height: 38)
+            //.padding()
+            .background(Color.blue)
+            .clipShape(Circle(), style: FillStyle())
         })
     }
 }
 
 #Preview {
-    ButtonNavigationMonths()
+    ButtonNavigationMonths(imageButton: "lessthan")
 }
 
 
-//: arrowshape.right.circle
+//: greaterthan

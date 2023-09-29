@@ -13,6 +13,7 @@
 		9689BAB42AC5D95F00854063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9689BAB32AC5D95F00854063 /* Assets.xcassets */; };
 		9689BAB72AC5D95F00854063 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9689BAB62AC5D95F00854063 /* Preview Assets.xcassets */; };
 		96B1D9EC2AC70BBA001006B7 /* Weekdays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1D9EB2AC70BBA001006B7 /* Weekdays.swift */; };
+		96B1D9EE2AC70FA3001006B7 /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1D9ED2AC70FA3001006B7 /* ExtensionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9689BAB32AC5D95F00854063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9689BAB62AC5D95F00854063 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96B1D9EB2AC70BBA001006B7 /* Weekdays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekdays.swift; sourceTree = "<group>"; };
+		96B1D9ED2AC70FA3001006B7 /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				963516FD2AC5F5BF003F7ABC /* ButtonNavigationMonths.swift */,
 				96B1D9EB2AC70BBA001006B7 /* Weekdays.swift */,
 				9689BAB12AC5D95A00854063 /* ContentView.swift */,
+				96B1D9ED2AC70FA3001006B7 /* ExtensionView.swift */,
 				9689BAB32AC5D95F00854063 /* Assets.xcassets */,
 				9689BAB52AC5D95F00854063 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B1D9EE2AC70FA3001006B7 /* ExtensionView.swift in Sources */,
 				9689BAB22AC5D95A00854063 /* ContentView.swift in Sources */,
 				9689BAB02AC5D95A00854063 /* CalendarApp.swift in Sources */,
 				96B1D9EC2AC70BBA001006B7 /* Weekdays.swift in Sources */,
