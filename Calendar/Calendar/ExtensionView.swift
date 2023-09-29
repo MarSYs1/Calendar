@@ -17,10 +17,14 @@ extension ContentView {
             Spacer()
             
             Text("Setembro 2023")
-                .fontWeight(.heavy)
+                .fontWeight(.light)
             
             Spacer()
             ButtonNavigationMonths(imageButton: "greaterthan")
         }
     }
 }
+
+
+
+

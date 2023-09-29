@@ -15,8 +15,20 @@ struct ContentView: View {
             
             HStack{
                 ForEach(Weekdays.allCases, id: \.self){week in
-                    Text(week.stringValue())
+                    HStack(spacing: 5){
+                        Text(week.stringValue())
+                            .frame(maxWidth: .infinity)
+                            .foregroundStyle(.white)
+                    }
+                    .frame(width: 44, height: 80)
+                    .background(.blue)
+                    .clipShape(RoundedRectangle(cornerSize: CGSize(width: 26, height: 10)), style: FillStyle())
                 }
+            }
+            
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 7)){
+                Text("Placeholder")
+                Text("Placeholder")
             }
         }
         .padding()
