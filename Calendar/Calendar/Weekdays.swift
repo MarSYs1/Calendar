@@ -6,11 +6,9 @@
 //
 
 import Foundation
+import SwiftUI
 
-
-
-
-enum Weekdays{
+enum Weekdays: String, CaseIterable{
     case Seg
     case Ter
     case Qua
@@ -18,4 +16,8 @@ enum Weekdays{
     case Sex
     case Sáb
     case Dom
+    
+    func stringValue() -> String {
+            return self.rawValue
+    }
 }

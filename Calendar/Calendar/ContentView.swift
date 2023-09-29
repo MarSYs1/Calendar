@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 20){
+            
            contentHeader
+            
+            HStack{
+                ForEach(Weekdays.allCases, id: \.self){week in
+                    Text(week.stringValue())
+                }
+            }
         }
         .padding()
     }
